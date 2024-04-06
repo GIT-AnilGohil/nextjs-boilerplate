@@ -1,11 +1,13 @@
 import React from 'react'
 import dynamic from 'next/dynamic';
-const PageLayout = ({children}:any) => {
+const Header = dynamic(() => import('@/components/pagelayout/header'), { ssr: true });
+const Footer = dynamic(() => import('@/components/pagelayout/footer'), { ssr: true });
+const PageLayout = ({ children }: any) => {
     return (
         <React.Fragment>
-            Header
+            <Header />
                 {children}
-            Footer
+            <Footer />
         </React.Fragment>
     )
 }

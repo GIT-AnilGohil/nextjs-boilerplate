@@ -1,11 +1,19 @@
 import React from 'react';
-import Head from 'next/head';
+import { Poppins } from "next/font/google";
+const poppins = Poppins({
+  weight: ['300', '400', '500', '600'],
+  style: 'normal',
+  preload: true,
+  display: 'swap',
+  subsets: ['latin']
+});
 
 const Layout = ({ children }: any) => {
+  console.log('poppins', poppins.style.fontFamily)
   return (
-    <React.Fragment>
+    <main className={poppins.className}>
       {children}
-    </React.Fragment>
+    </main>
   );
 };
 

@@ -51,6 +51,7 @@ The boilerplate follows a standard folder structure for organizing Next.js proje
     nextjs-boilerplate/
     ├── public                  # Static assets
     ├── src                     # Next.js Src
+    │   ├── assets              # Your App assets
     │   ├── components          # React components
     │   ├── styles              # Global styles
     │   └── pages               # Next.js pages
