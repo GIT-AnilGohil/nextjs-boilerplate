@@ -1,0 +1,36 @@
+/*------------- color variables ------------*/
+
+$black : #000000;
+$white : #ffffff;
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+/*------------- color variables ------------*/
+
+/*----------------- responsive variations -----------------*/
+$laptop-screen: 1980px;
+$sm-laptop-screen: 1600px;
+$xssm-laptop-screen: 1440px;
+$xsm-laptop-screen: 1399px;
+$sm-mini-screen: 1299px;
+$mini-screen: 1199px;
+$tab-max: 1024px;
+$ipad-view: 991px;
+$tab-view: 767px;
+$mobile-view: 575px;
+$mobile-md-view: 530px;
+$mobile-sm-view: 480px;
+$mobile-xsm-view: 390px;
+$mobile-xxsm-view: 340px;
+$landscape-sm: 320px;
+$landscape-lg: 550px;
+$landscape_xlg: 767px;
+
+// Fotns
+// $poppins : 'Poppins', sans-serif;
+$pacifico : var(--pacifico);
+$myriadpro : var(--myriadpro);
+
+@import "mixin";

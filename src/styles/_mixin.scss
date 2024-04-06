@@ -1,0 +1,369 @@
+// Responsive Mixins
+@mixin laptop-screen {
+    @media only screen and (max-width: #{$laptop-screen}) {
+        @content;
+    }
+}
+
+@mixin sm-laptop-screen {
+    @media only screen and (max-width: #{$sm-laptop-screen}) {
+        @content;
+    }
+}
+
+@mixin xssm-laptop-screen {
+    @media only screen and (max-width: #{$xssm-laptop-screen}) {
+        @content;
+    }
+}
+
+@mixin xsm-laptop-screen {
+    @media only screen and (max-width: #{$xsm-laptop-screen}) {
+        @content;
+    }
+}
+
+@mixin sm-mini-screen {
+    @media only screen and (max-width:#{$sm-mini-screen}) {
+        @content;
+    }
+}
+
+@mixin mini-screen {
+    @media only screen and (max-width: #{$mini-screen}) {
+        @content;
+    }
+}
+
+@mixin tab-max {
+    @media only screen and (max-width: #{$tab-max}) {
+        @content;
+    }
+}
+
+@mixin ipad-view {
+    @media only screen and (max-width: #{$ipad-view}) {
+        @content;
+    }
+}
+
+@mixin tab-view {
+    @media only screen and (max-width: #{$tab-view}) {
+        @content;
+    }
+}
+
+@mixin mobile-view {
+    @media only screen and (max-width: #{$mobile-view}) {
+        @content;
+    }
+}
+
+@mixin mobile-md-view {
+    @media only screen and (max-width: #{$mobile-md-view}) {
+        @content;
+    }
+}
+
+@mixin mobile-sm-view {
+    @media only screen and (max-width: #{$mobile-sm-view}) {
+        @content;
+    }
+}
+
+@mixin mobile-xsm-view {
+    @media only screen and (max-width: #{$mobile-xsm-view}) {
+        @content;
+    }
+}
+
+@mixin mobile-xxsm-view {
+    @media only screen and (max-width: #{$mobile-xxsm-view}) {
+        @content;
+    }
+}
+
+@mixin landscape-sm {
+    @media (min-height: #{$landscape-sm}) {
+        @content;
+    }
+}
+
+@mixin landscape-lg {
+    @media (max-height: #{$landscape-lg}) {
+        @content;
+    }
+}
+
+@mixin landscape_xlg {
+    @media (max-height: #{$landscape_xlg}) {
+        @content;
+    }
+}
+
+/*----------------- mixin variations -----------------*/
+
+@mixin quote_text {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+
+    @include tab-view {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+@mixin font-100 {
+    font-weight: 100;
+}
+
+@mixin font-200 {
+    font-weight: 200;
+}
+
+@mixin font-300 {
+    font-weight: 300;
+}
+
+@mixin font-400 {
+    font-weight: 400;
+}
+
+@mixin font-500 {
+    font-weight: 500;
+}
+
+@mixin font-600 {
+    font-weight: 600;
+}
+
+@mixin font-700 {
+    font-weight: 700;
+}
+
+@mixin font-800 {
+    font-weight: 800;
+}
+
+@mixin font-900 {
+    font-weight: 800;
+}
+
+@mixin font-10 {
+    font-style: normal;
+    font-size: 10px;
+}
+
+@mixin font-12 {
+    font-style: normal;
+    font-size: 12px;
+}
+
+@mixin font-13 {
+    font-style: normal;
+    font-size: 13px;
+}
+
+@mixin font-14 {
+    font-style: normal;
+    font-size: 14px;
+}
+
+@mixin font-15 {
+    font-style: normal;
+    font-size: 15px;
+}
+
+@mixin font-16 {
+    font-style: normal;
+    font-size: 16px;
+}
+
+@mixin font-17 {
+    font-style: normal;
+    font-size: 17px;
+}
+
+@mixin font-18 {
+    font-style: normal;
+    font-size: 18px;
+}
+
+@mixin font-19 {
+    font-style: normal;
+    font-size: 19px;
+}
+
+@mixin font-20 {
+    font-style: normal;
+    font-size: 20px;
+}
+
+@mixin font-21 {
+    font-style: normal;
+    font-size: 21px;
+}
+
+@mixin font-22 {
+    font-style: normal;
+    font-size: 22px;
+}
+
+@mixin font-23 {
+    font-style: normal;
+    font-size: 23px;
+}
+
+@mixin font-24 {
+    font-style: normal;
+    font-size: 24px;
+}
+
+@mixin font-25 {
+    font-style: normal;
+    font-size: 25px;
+}
+
+@mixin font-26 {
+    font-style: normal;
+    font-size: 26px;
+}
+
+@mixin font-28 {
+    font-style: normal;
+    font-size: 28px;
+}
+
+@mixin font-30 {
+    font-style: normal;
+    font-size: 30px;
+}
+
+@mixin font-32 {
+    font-style: normal;
+    font-size: 32px;
+}
+
+@mixin font-34 {
+    font-style: normal;
+    font-size: 34px;
+}
+
+@mixin font-35 {
+    font-style: normal;
+    font-size: 35px;
+}
+
+@mixin font-36 {
+    font-style: normal;
+    font-size: 33px;
+}
+
+@mixin font-37 {
+    font-style: normal;
+    font-size: 37px;
+}
+
+@mixin font-38 {
+    font-style: normal;
+    font-size: 38px;
+}
+
+@mixin font-40 {
+    font-style: normal;
+    font-size: 40px;
+}
+
+@mixin font-42 {
+    font-style: normal;
+    font-size: 42px;
+}
+
+@mixin font-45 {
+    font-style: normal;
+    font-size: 45px;
+}
+
+@mixin font-47 {
+    font-style: normal;
+    font-size: 47px;
+}
+
+@mixin font-48 {
+    font-style: normal;
+    font-size: 48px;
+}
+
+@mixin font-50 {
+    font-style: normal;
+    font-size: 50px;
+}
+
+@mixin font-53 {
+    font-style: normal;
+    font-size: 53px;
+}
+
+@mixin font-60 {
+    font-style: normal;
+    font-size: 60px;
+}
+
+@mixin font-64 {
+    font-style: normal;
+    font-size: 64px;
+}
+
+@mixin font-72 {
+    font-style: normal;
+    font-size: 72px;
+}
+
+@mixin rounded-pill {
+    border-radius: 500px;
+}
+
+/*----------------- mixin variations -----------------*/
+
+@mixin scrollYData {
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+
+@mixin thinScroll {
+    &::-webkit-scrollbar {
+        width: 100%;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.200);
+        border-radius: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+}
+
+@mixin theme_dark_blue {
+    color: $theme_dark_blue;
+}
+
+@mixin theme_dark {
+    color: $theme_dark;
+}
+
+@mixin theme_blue {
+    color: $theme_blue;
+}
+
+@mixin hideScollbar {
+    @include scrollYData;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
