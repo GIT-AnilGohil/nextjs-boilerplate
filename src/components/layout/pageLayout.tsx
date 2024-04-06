@@ -1,6 +1,6 @@
 import React from 'react'
 import dynamic from 'next/dynamic';
-const PageLayout = () => {
+const PageLayout = ({children}:any) => {
     return (
         <React.Fragment>
             Header
