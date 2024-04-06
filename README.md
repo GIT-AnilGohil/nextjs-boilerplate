@@ -48,12 +48,16 @@ Modify the configuration files in the `config/` directory to customize the boile
 
 The boilerplate follows a standard folder structure for organizing Next.js projects:
 
-nextjs-boilerplate/
-├── public/ # Static assets
-├── src/ # Next.js Src
-    ├── components/ # React components
-    ├── styles/ # Global styles
-    ├── pages/ # Next.js pages
+    nextjs-boilerplate/
+    ├── public                  # Static assets
+    ├── src                     # Next.js Src
+    │   ├── components          # React components
+    │   ├── styles              # Global styles
+    │   └── pages               # Next.js pages
+    ├── next.config.js          # Next Cofig file
+    ├── package.json            # Package Json file
+    ├── postcss.config.js       # Postcss / Purgecss config file
+    └── tsconfig.json           # Typescript config Json file
 
 ## Contributing
 
