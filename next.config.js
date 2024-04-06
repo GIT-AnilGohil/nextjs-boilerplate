@@ -1,5 +1,3 @@
-const path = require("path");
-
 const nextConfig = {
   webpack: (config, { isServer }) => {
 
@@ -59,5 +57,9 @@ const nextConfig = {
     ],
   },
   swcMinify: true,
+  compiler: {
+    removeConsole: process.env.NODE_ENV !== "development", // Remove console.log in production
+  },
 };
+
 module.exports = nextConfig;

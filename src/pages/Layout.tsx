@@ -9,7 +9,6 @@ const poppins = Poppins({
 });
 
 const Layout = ({ children }: any) => {
-  console.log('poppins', poppins.style.fontFamily)
   return (
     <main className={poppins.className}>
       {children}
