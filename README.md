@@ -42,7 +42,7 @@ Welcome to the Next.js Boilerplate! This boilerplate provides a solid starting p
 
 ## Configuration
 
-Modify the configuration files in the `config/` directory to customize the boilerplate according to your project requirements.
+Modify the configuration files in the `next.config.js` to customize the boilerplate according to your project requirements.
 
 ## Folder Structure
 
